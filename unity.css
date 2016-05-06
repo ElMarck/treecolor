@@ -41,7 +41,10 @@ code .tree-lines > *:before{
 	width:42px;
 	text-align:right;
 	-webkit-user-select: none;
-    content: counter(line);
+		-moz-user-select: none;
+		-ms-user-select: none;
+	  	user-select: none;
+	content: counter(line);
 }
 code .tree-code{
 	white-space:pre;
